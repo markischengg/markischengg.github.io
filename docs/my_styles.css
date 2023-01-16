@@ -1,3 +1,7 @@
+* {
+  border: thin red solid;
+}
+
 body {
   padding-top: 40px;
   padding-bottom: 40px;
@@ -22,20 +26,14 @@ body {
 .social-icons a {
   color: #629D62;
   text-decoration: none;
+  text-align: center;
+  flex-grow: 1;
 }
 
 .social-icons {
   background-color: #E0FAED;
-  text-decoration: none;
-}
-
-.link {
-  background-color: #EDFAE0;
-}
-
-.link a{
-  color: #629D62;
-  text-decoration: none;
+  display: flex;
+  align-items: center;
 }
 
 .name {
@@ -45,5 +43,6 @@ body {
 .items {
   display: flex;
   flex-direction: column;
-  gap: 30px
+  gap: 15px;
+  max-width: 640px;
 }
