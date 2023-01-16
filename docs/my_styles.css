@@ -1,6 +1,7 @@
 body {
   padding-top: 40px;
   padding-bottom: 40px;
+  background-color: #e0fae0;
 }
 
 .banner-image {
@@ -8,6 +9,7 @@ body {
   height: 128px;
   object-fit: cover;
   border-radius: 128px;
+  border: 2mm ridge rgba(211, 220, 50, .6);
 }
 
 .icon {
@@ -15,4 +17,33 @@ body {
   height: 48px;
   object-fit: cover;
   border-radius: 10px;
+}
+
+.social-icons a {
+  color: #629D62;
+  text-decoration: none;
+}
+
+.social-icons {
+  background-color: #E0FAED;
+  text-decoration: none;
+}
+
+.link {
+  background-color: #EDFAE0;
+}
+
+.link a{
+  color: #629D62;
+  text-decoration: none;
+}
+
+.name {
+  color: #629D62;
+}
+
+.items {
+  display: flex;
+  flex-direction: column;
+  gap: 30px
 }
